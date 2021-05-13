@@ -6,6 +6,7 @@ import json
 from firebase_admin import credentials, auth
 from flask import Flask, request
 from functools import wraps
+from flask_swagger_ui import get_swaggerui_blueprint
 
 app = Flask(__name__)
 
